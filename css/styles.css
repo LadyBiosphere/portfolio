@@ -9,14 +9,56 @@ body {
       margin: 0 auto; } }
 
 .intro {
-  background-image: url(https://farm3.staticflickr.com/2885/11182863533_412a4b0e35_b.jpg);
-  background-repeat: no-repeat;
+  background: url(https://farm3.staticflickr.com/2885/11182863533_412a4b0e35_b.jpg) no-repeat center;
   width: 100%;
-  height: 600px; }
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .intro h1 {
+    padding-top: 180px;
+    font-size: 45px; }
+    @media all and (min-width: 700px) {
+      .intro h1 {
+        font-size: 50px;
+        padding-top: 200px; } }
+    @media all and (min-width: 1000px) {
+      .intro h1 {
+        font-size: 60px;
+        padding-top: 270px; } }
+  .intro h2 {
+    font-size: 20px;
+    margin-top: 10px; }
+    @media all and (min-width: 700px) {
+      .intro h2 {
+        margin-top: 20px;
+        font-size: 22px; } }
   .intro h1, .intro h2 {
     text-align: center; }
+  @media all and (min-width: 700px) {
+    .intro {
+      height: 600px; } }
+  @media all and (min-width: 1000px) {
+    .intro {
+      height: 800px; } }
+  .intro i {
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .intro i {
+        font-size: 30px;
+        vertical-align: middle;
+        opacity: .5;
+        display: inline; }
+        .intro i:hover {
+          color: #f2784b; } }
+
+@media all and (min-width: 700px) {
+  nav {
+    position: fixed; } }
 
 nav, footer {
+  z-index: 4;
   width: 100%;
   background: #000;
   padding: 20px 0px; }
@@ -35,13 +77,13 @@ nav, footer {
       nav .nav-toggle, footer .nav-toggle {
         display: none; } }
   nav #menu, footer #menu {
-    z-index: 2;
+    z-index: 5;
     font-weight: bold; }
     @media all and (min-width: 700px) {
       nav #menu, footer #menu {
         display: none; } }
   nav #hamburger, footer #hamburger {
-    z-index: 3;
+    z-index: 6;
     width: 10px; }
     @media all and (min-width: 700px) {
       nav #hamburger, footer #hamburger {
@@ -63,15 +105,11 @@ nav, footer {
       @media all and (min-width: 700px) {
         nav ul li, footer ul li {
           display: inline;
-          margin: 0px 5px; } }
+          margin: 0px 30px; } }
       nav ul li a, footer ul li a {
         text-transform: uppercase;
         text-decoration: none;
         color: #f2784b; }
-
-h1 {
-  font-size: 50px;
-  padding-top: 180px; }
 
 h1, h2 {
   color: white; }
@@ -82,15 +120,29 @@ h1, h2, h3, nav {
 article h2, h3, nav, footer {
   color: #f2784b; }
 
+#about, #project, #contact {
+  margin: 50px 0px; }
+  @media all and (min-width: 700px) {
+    #about, #project, #contact {
+      margin: 100px 0px; } }
+
 article h2, article h3 {
   text-align: center; }
 article p {
   font-family: "Merriweather"; }
+  @media all and (min-width: 700px) {
+    article p {
+      margin: 50px 0px; } }
 
 footer p {
   font-family: "Merriweather";
-  font-size: small;
+  font-size: x-small;
   text-align: center; }
+@media all and (min-width: 700px) {
+  footer {
+    left: 0;
+    bottom: 0;
+    position: fixed; } }
 
 /*==========  FOLD CONFIG  ==========*/
 .wallop-slider--fold .wallop-slider__list {
