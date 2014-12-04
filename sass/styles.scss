@@ -50,7 +50,7 @@ body {
 		text-align: center;
 	}
 
-	background:url(https://farm3.staticflickr.com/2885/11182863533_412a4b0e35_b.jpg) no-repeat center;
+	background:url(https://farm3.staticflickr.com/2885/11182863533_412a4b0e35_b.jpg) no-repeat center center fixed;
 	background-color: $dark-background;
 	width: 100%;
 	height: 600px;
@@ -179,6 +179,7 @@ nav, footer {
 
 				&:hover{
 					color: white;
+					transition: .4s;
 				}
 			}
 		}
@@ -271,8 +272,8 @@ article h2, h3, nav, footer {
 
 }
 
-#projects{
-	// background-color: black;
+#contact{
+	background-color: transparent;
 }
 
 article {
@@ -439,6 +440,7 @@ footer {
   @include breakpoint(tablet){
   	  margin: 0 auto;
   	  width: 100%;
+  	  border-radius: 10px;
   }
 
 }
