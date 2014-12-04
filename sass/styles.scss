@@ -7,6 +7,7 @@ body {
 
 #container {
 	width: 100%;
+	// background-color: $dark-background;
 
 	@include breakpoint(desktop){
 		width: 960px;
@@ -50,6 +51,7 @@ body {
 	}
 
 	background:url(https://farm3.staticflickr.com/2885/11182863533_412a4b0e35_b.jpg) no-repeat center;
+	background-color: $dark-background;
 	width: 100%;
 	height: 600px;
 
@@ -72,13 +74,20 @@ body {
 	 	display: none;
 	 	
 	 	@include breakpoint(desktop){
+	 		color: $dark-background;
 	 		font-size: 30px;
 	 		vertical-align: middle;
 	 		opacity: .5;
-	 		display: inline;
+	 		display: inline-block;
+ 
+	 		margin: 15px; 
+	 		-webkit-transition: margin 0.5s ease-out; 
+	 		-moz-transition: margin 0.5s ease-out; 
+	 		-o-transition: margin 0.5s ease-out; 
 
 	 		&:hover{
-	 			color: $dark-background;
+	 			color: white;
+	 			margin-top: 2px;
 	 		}
 	 	}
 	 }
@@ -167,6 +176,10 @@ nav, footer {
 				text-transform: uppercase;
 				text-decoration: none;
 				color: $dark-background;
+
+				&:hover{
+					color: white;
+				}
 			}
 		}
 	}
@@ -189,12 +202,77 @@ article h2, h3, nav, footer {
 
 #about, #project, #contact {
 
+	h2 {
+		font-size: 34px;
+	}
+
 	margin: 50px 0px;
 
 	@include breakpoint(tablet){
 		margin: 100px 0px;
 	}
 
+	ul{
+		list-style: none;
+
+		@include breakpoint(tablet){
+			text-align: center;
+		}
+
+		li {
+			display: block;
+			padding: 10px 0px;
+			width: 100%;
+
+			@include breakpoint(tablet) {
+				display: inline;
+				margin: 0px 30px;
+			}
+
+
+
+			a {
+				text-decoration: none;
+				color: $dark-background;
+
+				&:hover{
+					color: black;
+				}
+			}
+		}
+	}
+
+
+
+	
+
+	i {
+		color: $dark-background;
+		font-size: 50px;
+		vertical-align: middle;
+
+		@include breakpoint(desktop){
+			font-size: 30px;
+			vertical-align: middle;
+			// opacity: .5;
+			display: inline-block;
+		
+			margin: 15px; 
+			-webkit-transition: margin 0.5s ease-out; 
+			-moz-transition: margin 0.5s ease-out; 
+			-o-transition: margin 0.5s ease-out; 
+
+			&:hover{
+				color: $dark-background;
+				margin-top: 2px;
+			}
+		}
+	}
+
+}
+
+#projects{
+	// background-color: black;
 }
 
 article {
@@ -284,7 +362,62 @@ footer {
 
 .wallop-slider {
   width: 100%;
+  position: relative; 
+
+  i{
+  	color: $dark-background;
+  	font-size: 50px;
+  	opacity: .5;
+
+  	@include breakpoint(desktop){
+  		vertical-align: middle;
+  		display: inline-block;
+  		// margin: 15px; 
+  		// -webkit-transition: margin 0.5s ease-out; 
+  		// -moz-transition: margin 0.5s ease-out; 
+  		// -o-transition: margin 0.5s ease-out; 
+
+  		&:hover{
+  			color: white;
+  			// margin-top: 2px;
+  		}
+  	}
+  }
+
+  button{
+  	background-color: transparent;
+  	padding: 20px;
+  	border: none;
+  }
+
+	  button:nth-child(1){
+		float: right;
+		left:  0px;
+	}
+
 }
+
+#projects{
+	.wallop-slider__btn wallop-slider__btn--previous, .wallop-slider__btn wallop-slider__btn--next, button {
+		color: white;
+		background-color: transparent;
+		border: transparent;
+		font-size: 30px;
+		z-index: 3;
+		position: absolute;
+		top: 70px;
+		right: 0px;
+		// height: 100%;
+		padding: 40px 20px;
+		float: right;
+	}
+
+	h2 {
+		font-size: 34px;
+	}
+}
+
+
 
 .wallop-slider__list {
   list-style: none;
@@ -302,6 +435,12 @@ footer {
 .wallop-slider__item img {
   display: block;
   width: 100%;
+
+  @include breakpoint(tablet){
+  	  margin: 0 auto;
+  	  width: 100%;
+  }
+
 }
 
 .wallop-slider__item--current {
