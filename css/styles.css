@@ -38,7 +38,7 @@ body {
       height: 700px; } }
   @media all and (min-width: 1000px) {
     .intro {
-      height: 800px; } }
+      height: 900px; } }
   .intro i {
     display: none; }
     @media all and (min-width: 1000px) {
@@ -207,7 +207,6 @@ footer p {
   position: relative; }
   @media all and (min-width: 700px) {
     .wallop-slider {
-      width: 75%;
       margin: 0 auto; } }
   .wallop-slider i {
     color: #f2784b;
