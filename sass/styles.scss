@@ -226,9 +226,9 @@ article h2, h3, nav, footer {
 		}
 
 		li {
-			display: block;
+			display: inline-block;
 			padding: 10px 0px;
-			width: 100%;
+			width: 43%;
 
 			@include breakpoint(tablet) {
 				display: inline;
