@@ -129,7 +129,7 @@ article h2, h3, nav, footer {
   line-height: 30px;
   margin: 50px 0px; }
   #about h2, #project h2, #contact h2 {
-    font-size: 34px;
+    font-size: 40px;
     margin-bottom: 30px; }
   @media all and (min-width: 700px) {
     #about, #project, #contact {
@@ -240,7 +240,7 @@ footer p {
     padding: 40px 20px;
     float: right; }
   #projects h2 {
-    font-size: 34px;
+    font-size: 40px;
     margin-bottom: 30px; }
 
 .wallop-slider__list {
@@ -263,7 +263,7 @@ footer p {
     .wallop-slider__item img {
       margin: 0 auto;
       width: 100%;
-      border-radius: 50px; } }
+      border-radius: 35px; } }
 
 .wallop-slider__item--current {
   display: block;

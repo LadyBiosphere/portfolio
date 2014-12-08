@@ -202,7 +202,7 @@ article h2, h3, nav, footer {
 	line-height: 30px;
 
 	h2 {
-		font-size: 34px;
+		font-size: 40px;
 		margin-bottom: 30px;
 	}
 
@@ -376,7 +376,7 @@ footer {
 
 
 	h2 {
-		font-size: 34px;
+		font-size: 40px;
 		margin-bottom: 30px;
 	}
 
@@ -406,7 +406,7 @@ footer {
   @include breakpoint(tablet){
   	  margin: 0 auto;
   	  width: 100%;
-  	  border-radius: 50px;
+  	  border-radius: 35px;
   }
 
 }
