@@ -1,6 +1,9 @@
-Nishi's Portfolio
+About this project
 =============
+Updated: Tuesday the 16th of August 2016.
 
-Currently in progress.
+I created this portfolio with intentions of showing it to future employers and clients. It showcases my latest digital projects, my work history and a bit about my education.
 
-This document is a cover page, describing what that code is about and what it contains.
+You will also find quick links to my various accounts on social media.
+
+[Visit website](http://ladybiosphere.github.io/portfolio/)
