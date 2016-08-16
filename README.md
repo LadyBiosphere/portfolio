@@ -6,8 +6,4 @@ I created this portfolio with intentions of showing it to future employers and c
 
 You will also find quick links to my various accounts on social media.
 
-<<<<<<< HEAD
 [Visit website](http://ladybiosphere.github.io/portfolio/)
-=======
-[Visit website](http://ladybiosphere.github.io/portfolio/)
->>>>>>> gh-pages
