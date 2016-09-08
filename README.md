@@ -1,6 +1,6 @@
 About this project
 =============
-Updated: Tuesday the 3rd of September 2016.
+Updated: Tuesday the 8th of September 2016.
 
 I created this portfolio with intentions of showing it to future employers and clients. It showcases my latest digital projects, my work history and a bit about my education.
 
