@@ -1,16 +1,16 @@
-About this project
+##About this project
 =============
-Updated: Thursday the 17th of November 2016.
+######Updated: Thursday the 17th of November 2016.
 
 Digtial portfolio website for showcasing my: 
-- latest design projects
-- recent work history*
-- recent education / training history*
+[x] latest design projects
+[x] recent work history
+[x] recent education / training history
 
 This website also includes:
-- links to social media
-- the latest PDF copy of my CV (printable A4)
+[x] links to social media
+[x] the latest PDF copy of my CV (printable A4)
 
-* Only relevant information shown.
+Please note that I have only included relevant experience in this portfolio. I have also only included a small selection of projects.
 
 [Visit website](http://ladybiosphere.github.io/portfolio/)
