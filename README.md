@@ -1,9 +1,16 @@
 About this project
 =============
-Updated: Saturday the 29th of October 2016.
+Updated: Thursday the 17th of November 2016.
 
-I created this portfolio with intentions of showing it to future employers and clients. It showcases my latest digital projects, my work history and a bit about my education.
+Digtial portfolio website for showcasing my: 
+- latest design projects
+- recent work history*
+- recent education / training history*
 
-You will also find quick links to my various accounts on social media and a downloadable CV.
+This website also includes:
+- links to social media
+- the latest PDF copy of my CV (printable A4)
+
+* Only relevant information shown.
 
 [Visit website](http://ladybiosphere.github.io/portfolio/)
