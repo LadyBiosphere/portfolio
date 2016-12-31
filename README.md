@@ -1,6 +1,6 @@
 ##About this project
 =============
-######Updated: Thursday the 14th of December 2016.
+######Updated: Thursday the 31st of December 2016.
 
 Digtial portfolio website for showcasing my: 
 - latest design projects
