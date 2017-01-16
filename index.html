@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="See the latest digital products made by Nishita Wojnar - a digital designer based in Wellington, New Zealand.">
+        <meta name="description" content="Web development, graphic design and UI/UX - creative digital services in Wellington, New Zealand.">
         <meta name="author" content="Nishita Wojnar">
         <title>Nishita Wojnar | Portfolio</title>
 
@@ -25,6 +25,10 @@
 
     <body id="page-top">
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+
+            <!-- Avatar -->
+            <a class="page-scroll" href="#page-top"><img class="avatar" src="img/avatar.jpg" alt="Welcome to my website"></a>
+
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -40,16 +44,16 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="page-scroll" href="#portfolio">Recent projects <span class="badge">2</span></a>
+                            <a class="page-scroll" href="#portfolio">Portfolio <span class="badge">1 new</span></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#skills">Process &amp; skills</a>
+                            <a class="page-scroll" href="#skills">Skills</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#about">About me</a>
+                            <a class="page-scroll" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#social">Social media</a>
+                            <a class="page-scroll" href="#social">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -57,42 +61,100 @@
         </nav>
 
         <!-- Introduction -->
-        <header>
+        <header class="wow fadeIn" data-wow-duration="3s">
             <div class="header-content">
                 <div class="header-content-inner">
-                    <h1>Let&rsquo;s talk digital</h1>
-                    <p class="text-faded">Hi, I&rsquo;m Nishi. I specialise in digital strategy, design and development.</p>
-                    <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Sample my work <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
+                    <h1>Nishita Wojnar</h1>
+                    <div class="wow fadeIn" data-wow-duration="8s">
+                        <!-- <p class="text-faded">I specialise in graphic design, web development and digital strategy.</p> -->
+                        <p class="text-faded">Hello. I specialise in design, development and digital strategy.</span></p>
+                        <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">See portfolio <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
         </header>
 
         <!-- Portfolio -->
          <section class="no-padding" id="portfolio">
-            <div class="container-fluid">
+            <div class="container-fluid bg-dark">
+
+                <!-- Gallery filter -->
+                <div class="row" style=" margin:20px 0px; text-align: center;">  
+                    <div class="col-xs-12">
+                        <button class="btn btn-primary filter-button" data-filter="all">All</button>
+                        <button class="btn btn-default filter-button" data-filter="web">Websites</button>
+                        <button class="btn btn-default filter-button" data-filter="graphic">Graphic design</button>
+                    </div>
+                </div>
+
                 <div class="row no-gutter">
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
-                        <a href="https://ladybiosphere.github.io/flexbox-frontier/index.html" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/2016-flexbox-frontier.jpeg" class="img-responsive" alt="I am teaching the basics of web design at ACG Yoobee School of Design.">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic">
+                        <a href="#" target="_blank" class="portfolio-box">
+                            <img src="img/portfolio/2017-korean-association-of-wellington.jpeg" class="img-responsive" alt="I am teaching the basics of web design at ACG Yoobee School of Design.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded">
-                                        <small class="label label-default hidden-xs">Web design &amp; development</small>
+                                        <small class="label label-default hidden-xs">2017</small>
                                     </div>
                                     <div class="project-name">
-                                         ACG Yoobee School of Design <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
+                                         Korean Student Association of Wellington <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter web">
+                        <a href="https://ladybiosphere.github.io/flexbox-frontier/index.html" target="_blank" class="portfolio-box">
+                            <img src="img/portfolio/2016-flexbox-frontier.jpeg" class="img-responsive" alt="I am teaching the basics of web design at ACG Yoobee School of Design.">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content" title="Learn about this project.">
+                                    <div class="project-category text-faded">
+                                        <small class="label label-default hidden-xs">2016</small>
+                                    </div>
+                                    <div class="project-name">
+                                         Intro to Flexbox <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter web">
+                        <a href="https://www.behance.net/gallery/46074645/Intro-to-HTML5-CSS3-II-WIP" target="_blank" class="portfolio-box">
+                            <img src="img/portfolio/2016-yoobee-a.jpeg" class="img-responsive" alt="I am teaching the basics of web design at ACG Yoobee School of Design.">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content" title="Learn about this project.">
+                                    <div class="project-category text-faded">
+                                        <small class="label label-default hidden-xs">2016</small>
+                                    </div>
+                                    <div class="project-name">
+                                         Intro to HTML5 &amp; CSS3 II <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter web">
+                        <a href="https://www.behance.net/gallery/44397283/Intro-to-HTML5-CSS3" target="_blank" class="portfolio-box">
+                            <img src="img/portfolio/2016-yoobee-b.jpeg" class="img-responsive" alt="I am teaching the basics of web design at ACG Yoobee School of Design.">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content" title="Learn about this project.">
+                                    <div class="project-category text-faded">
+                                        <small class="label label-default hidden-xs">2016</small>
+                                    </div>
+                                    <div class="project-name">
+                                         Intro to HTML5 &amp; CSS3 <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic web">
                         <a href="https://www.behance.net/gallery/34914823/Maritime-New-Zealand" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2016-maritime-new-zealand.png" class="img-responsive" alt="I created a new website for Maritime New Zealand.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded">
-                                        <small class="label label-default hidden-xs">Web design, development &amp; strategy</small>
+                                        <small class="label label-default hidden-xs">2015 - 2016</small>
                                     </div>
                                     <div class="project-name">
                                          Maritime New Zealand <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -101,13 +163,13 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic">
                         <a href="https://www.behance.net/gallery/37619811/Lingo" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2016-lingo.jpg" class="img-responsive" alt="I created logos for a personal project called Lingo.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded">
-                                        <small class="label label-default hidden-xs">Graphic design</small>
+                                        <small class="label label-default hidden-xs">2016</small>
                                     </div>
                                     <div class="project-name">
                                         Lingo <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -116,13 +178,13 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic">
                         <a href="https://www.behance.net/gallery/35599261/Macroscopic-Tales-Fossils-Preservation" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2016-macroscopic-tales.jpg" class="img-responsive" alt="I created dramatic photos for a personal project called Macroscopic Tales.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded hidden-xs">
-                                        <small class="label label-default">Graphic design</small>
+                                        <small class="label label-default">2015 - 2016</small>
                                     </div>
                                     <div class="project-name">
                                          Macroscopic Tales <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -131,13 +193,13 @@
                             </div>
                         </a>
                     </div>
-                     <div class="col-lg-4 col-sm-4 col-xs-6">
+                     <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic">
                         <a href="https://www.behance.net/gallery/33526139/Kiwi-Transport-Services" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2016-kiwi-transport-services.jpg" class="img-responsive" alt="I gave Kiwi Transport Services a visual identity through logo design.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded hidden-xs">
-                                        <small class="label label-default">Graphic design</small>
+                                        <small class="label label-default">2014 - 2016</small>
                                     </div>
                                     <div class="project-name">
                                          Kiwi Transport Services <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -146,13 +208,13 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter web graphic">
                         <a href="https://www.behance.net/gallery/30726459/SNIP-Hair-Salons" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2014-snip.jpg" class="img-responsive" alt="I created a website for Snip Hairdressing Salon.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded hidden-xs">
-                                        <small class="label label-default">Web design, development &amp; strategy</small>
+                                        <small class="label label-default">2014</small>
                                     </div>
                                     <div class="project-name">
                                          Snip Hairdressing Salon <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -161,13 +223,13 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic web">
                         <a href="https://www.behance.net/gallery/30726263/BrainStorm" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2014-brainstorm.jpg" class="img-responsive" alt="I created a website for my graduate studies.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded hidden-xs">
-                                        <small class="label label-default">Web design &amp; development</small>
+                                        <small class="label label-default">2014</small>
                                     </div>
                                     <div class="project-name">
                                          BrainStorm <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -176,13 +238,13 @@
                             </div>
                         </a>
                     </div> 
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic">
                         <a href="https://www.behance.net/gallery/34827081/Promotional-Poster-Concepts" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2014-district-9.jpg" class="img-responsive" alt="In this course, I quickly mastered Photoshop.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded hidden-xs">
-                                        <small class="label label-default">Graphic design</small>
+                                        <small class="label label-default">2014</small>
                                     </div>
                                     <div class="project-name">
                                          Promotional posters <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -191,13 +253,13 @@
                             </div>
                         </a>
                     </div> 
-                    <div class="col-lg-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-4 col-sm-4 col-xs-6 filter graphic">
                         <a href="https://www.behance.net/gallery/30725917/Capybara" target="_blank" class="portfolio-box">
                             <img src="img/portfolio/2013-capybara.jpg" class="img-responsive" alt="I was commissioned to paint a Capybara.">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content" title="Learn about this project.">
                                     <div class="project-category text-faded hidden-xs">
-                                        <small class="label label-default">Graphic design</small>
+                                        <small class="label label-default">2013</small>
                                     </div>
                                     <div class="project-name">
                                          Capybara <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-right wow flash" aria-hidden="true"></i>
@@ -443,6 +505,24 @@
             ga('create', 'UA-83920701-1', 'auto');
             ga('send', 'pageview');
 
+        </script>
+
+        <!-- Filter gallery -->
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter');
+                if(value == "all")
+                {
+                    $('.filter').show('1000');
+                    }
+                else
+                    {
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+                    }
+                });
+            });
         </script>
 
         <!-- Get current year -->
