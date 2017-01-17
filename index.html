@@ -66,8 +66,7 @@
                 <div class="header-content-inner">
                     <h1>Nishita Wojnar</h1>
                     <div class="wow fadeIn" data-wow-duration="8s">
-                        <!-- <p class="text-faded">I specialise in graphic design, web development and digital strategy.</p> -->
-                        <p class="text-faded">Hello. I specialise in design, development and digital strategy.</span></p>
+                        <p class="text-faded">I specialise in graphic design, web development, and strategy.</p>
                         <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">See portfolio <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -79,7 +78,7 @@
             <div class="container-fluid bg-dark">
 
                 <!-- Gallery filter -->
-                <div class="row" style=" margin:20px 0px; text-align: center;">  
+                <div class="row gallery-controls">  
                     <div class="col-xs-12">
                         <button class="btn btn-primary filter-button" data-filter="all">All</button>
                         <button class="btn btn-default filter-button" data-filter="web">Websites</button>
@@ -276,9 +275,9 @@
         <aside class="bg-dark">
             <div class="container text-center">
                 <div class="call-to-action">
-                    <h2>Intrigued by what you see?</h2>
-                    <p class="text-faded">Learn about my methods, favourite tools and skills.</p>
-                    <a href="#skills" class="btn btn-primary btn-xl page-scroll">See my process <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
+                    <!-- <h2>Intrigued by what you see?</h2> -->
+                    <p class="text-faded">Learn about my methods, favourite tools, and skills.</p>
+                    <a href="#skills" class="btn btn-primary btn-xl page-scroll">See details <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
                 </div>
             </div>
         </aside>
@@ -288,38 +287,85 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h1 class="section-heading text-primary">Behind the scenes</h1>
-                        <p class="text-muted">I combine <span class="label label-info">my skills</span> together to create engaging visuals and positive experiences.</p> 
+                        <h1 class="section-heading text-primary">Overview of skills</h1>
+                        <p class="text-muted"><span class="label label-info">My skills</span> fall into three areas. I combine them to create, engage, and communicate.</p> 
                     </div>
                 </div>
             </div><br>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-4 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-5x fa-pencil wow bounceIn text-muted hidden-xs" data-wow-delay=".1s"></i>
-                            <h3 class="text-muted">Design</h3>
-                            <p><span class="label label-info">Wireframes</span> <span class="label label-info">Mockups</span> <span class="label label-info">Illustration</span> <span class="label label-info">Interface design</span> <span class="label label-info">Visual communication</span> <span class="label label-info">Photography</span> <span class="label label-info">Typography</span></p><br>
-                            <small class="text-muted visible-lg">My tools include a Wacom Cintiq, Adobe Illustrator &amp; Photoshop, InkScape, ArtRage and Krita.</small>
-                        </div>
-                    </div>
+                    <div class="col-md-4">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel">
+                                <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
+                                    <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h4 class="panel-title btn btn-default">Graphic design</h4>
+                                    </div>
+                                </span>
+                                
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                    <p><span class="label label-info">Wireframes</span> <span class="label label-info">Mockups</span> <span class="label label-info">Illustration</span> <span class="label label-info">Interface design</span> <span class="label label-info">Photo manipulation</span> <span class="label label-info">Photography</span> <span class="label label-info">Typography</span></p>
+                                    <small class="text-muted">My favourite tools include a Wacom Cintiq, Adobe Illustrator &amp; Photoshop, InkScape, ArtRage, and Krita.</small>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            <div class="panel">
+                                <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
+                                    <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h4 class="panel-title btn btn-default collapsed">Web development</h4>
+                                    </div>
+                                </span>
 
-                    <div class="col-lg-4 col-sm-4 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-5x fa-laptop wow bounceIn text-muted hidden-xs" data-wow-delay=".2s"></i>
-                            <h3 class="text-muted">Code</h3>
-                            <p><span class="label label-info">Web design</span> <span class="label label-info">Responsive design</span> <span class="label label-info">Information architecture</span> <span class="label label-info">Prototyping</span> <span class="label label-info">Browser compatibility</span> <span class="label label-info">Validation</span></p><br>
-                            <small class="text-muted visible-lg">My coding languages include HTML5, CSS3 / SASS, JavaScript / jQuery, PHP and mySQL.</small>
-                        </div>
-                    </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                    <p><span class="label label-info">Web design</span> <span class="label label-info">Mobile-first responsive design</span> <span class="label label-info">Interactivity</span> <span class="label label-info">Prototyping</span> <span class="label label-info">Browser testing</span> <span class="label label-info">Validation</span> <span class="label label-info">Front-end frameworks</span></p>
+                                    <small class="text-muted">My strengths lie in front-end (client-side) frameworks and languages like HTML5, CSS3 / SASS, JavaScript / jQuery, Material Design, and Bootstrap.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="panel">
+                                <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
+                                    <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <h4 class="panel-title btn btn-default">Digital strategy</h4>
+                                    </div>
+                                </span>
 
-                    <div class="col-lg-4 col-sm-4 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-5x fa-user wow bounceIn text-muted hidden-xs" data-wow-delay=".3s"></i>
-                            <h3 class="text-muted">Psychology</h3>
-                            <p><span class="label label-info">User experience design</span> <span class="label label-info">Accessibility design</span> <span class="label label-info">Customer service</span> <span class="label label-info">Stakeholder management</span> <span class="label label-info">Statistical data analysis</span></p><br>
-                            <small class="text-muted visible-lg">My methods include applied psychological research, testing, search engine optimisation (SEO) and public speaking.</small>
-                        </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="panel-body">
+                                   <p><span class="label label-info">User experience design</span> <span class="label label-info">Visual communication</span> <span class="label label-info">Accessibility design</span> <span class="label label-info">Search engine optimisation</span> <span class="label label-info">Information architecture</span> <span class="label label-info">Data analysis</span></p>
+                                   <small class="text-muted">My methods have a solid foundation in applied psychology, statistics, and research.</small>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="col-md-8 hidden-xs hidden-sm">
+                        <!-- Computer mockup -->
+                        <div class="md-macbook-pro md-glare">
+                            <div class="md-lid">
+                                <div class="md-camera"></div>
+                                <div class="md-screen">              
+                                    <div class="tab-featured-image">
+                                        <div class="tab-content">
+                                            <div class="tab-pane  in active" id="tab1">
+                                                <img src="img/computer-screen/illustrator.jpeg" alt="Overview of design process." class="img img-responsive">
+                                            </div>
+                                            <div class="tab-pane " id="tab2">
+                                                <img src="img/computer-screen/sublime.jpeg" alt="Overview of web development process.">
+                                            </div>
+                                            <div class="tab-pane fade" id="tab3">
+                                                <img src="img/computer-screen/ux.jpeg" alt="Overview of digital strategy methods." class="img img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md-base"></div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -329,9 +375,9 @@
         <aside class="bg-dark">
             <div class="container text-center">
                 <div class="call-to-action">
-                    <h2>Like what you see?</h2>
-                    <p class="text-faded">Get acquainted with my work ethic and recent history.</p>
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn about me <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
+                    <!-- <h2>Like what you see?</h2> -->
+                    <p class="text-faded">Learn about my experiences, education, and interests.</p>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll">See background <i data-wow-duration="4s" data-wow-iteration="100" class="fa fa-chevron-circle-down wow flash" aria-hidden="true"></i></a>
                 </div>
             </div>
         </aside>
