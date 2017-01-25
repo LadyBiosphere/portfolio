@@ -216,20 +216,20 @@ header .header-content .header-content-inner p {
   max-width: 400px;
   margin: 50px auto 0;
 }
-/*.info-wall{
-  border-right: 1px solid white;
-}*/
+.info-wall{
+  border-right: 1px solid #ccc;
+}
 .img-circle{
   width: 120px;
   height: 120px;
   border: 5px solid #fff;
   display: inline;
 }
-/*@media(max-width: 768px) {
-  .info-wall{
-    border-right: none;
-  }
-}*/
+
+footer{
+  padding: 10px 0px;
+}
+
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
