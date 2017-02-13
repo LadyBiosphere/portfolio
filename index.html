@@ -572,6 +572,22 @@
             });
         </script>
 
+        <!-- Background animation -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+            var movementStrength = 15;
+            var height = movementStrength / $(window).height();
+            var width = movementStrength / $(window).width();
+            $("header").mousemove(function(e){
+                      var pageX = e.pageX - ($(window).width() / 1);
+                      var pageY = e.pageY - ($(window).height() / 1);
+                      var newvalueX = width * pageX * -1 - 5;
+                      var newvalueY = height * pageY * -1 - 50;
+                      $('header').css("background-position", newvalueX+"px     "+newvalueY+"px");
+            });
+            });
+        </script>
+
         <!-- Get current year -->
         <script type="text/javascript">
             var currentYear = (new Date).getFullYear();

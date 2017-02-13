@@ -1,6 +1,6 @@
 ##About this project
 =============
-######Updated: Friday the 30th of January 2017.
+######Updated: Friday the 13th of February 2017.
 
 Digtial portfolio website includes: 
 - notable design projects 
