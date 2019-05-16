@@ -1,10 +1,8 @@
 ##About this project
 =============
-######Updated: Thursday the 21st of June 2018.
+######Updated: Thursday the 16th of May 2019.
 
 Digtial portfolio website includes: 
-- website update notfication
-- social links for contact 
-- name and profession
+- updated portfolio section (individual projects still require content)
 
 [Visit website](http://ladybiosphere.github.io/portfolio/)

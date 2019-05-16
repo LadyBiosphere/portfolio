@@ -1,86 +1,317 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>	
-		<!-- Metas -->
-		<meta charset="utf-8" />
-		<meta name="description" content="Nishita Wojnar is a Wellington-based digital designer who specialised in UI and UX design, front-end web development and graphic design.">
-		<meta name="author" content="Nishita Wojnar">
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<head>
+  <!-- Metas -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-		<title>Nishita Wojnar | Portfolio</title>
+  <!-- Browser Tab -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="manifest" href="img/icons/site.webmanifest">
+  <title>Nishita Wojnar | Portfolio</title>
 
-		<!-- Favicons -->
-		<link rel="shortcut icon" href="images/avatar.jpeg" type="image/x-icon">
-		<link rel="icon" href="images/avatar.jpeg" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-		<!-- Styles -->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Page container -->
-		<div id="container">
-
-			<!-- Main -->
-			<section id="card-body">
-				<header>
-					<h1>New website coming soon</h1>
-					<span class="avatar"><img src="images/avatar.jpeg" alt="Photo of Nishita Wojnar"/></span>
-					<h2>Nishita Wojnar</h2>
-					<p>UI &amp; UX Designer</p>
-				</header>
-				<hr>
-				<article id="card-footer">
-					<h4>Get in touch</h4>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/nishitawojnar/" target="_blank" title="See my work history" class="fa-linkedin">LinkedIn</a></li>
-						<li><a href="https://www.behance.net/NishitaWojnar" target="_blank" title="See my portfolio" class="fa-behance">Behance</a></li>
-						<li><a href="https://www.instagram.com/nishitawojnar/?hl=en" target="_blank" title="See what I'm working on" class="fa-instagram">Instagram</a></li>
-						<li><a href="https://twitter.com/nishita_wojnar" target="_blank" title="See what new" class="fa-twitter">Twitter</a></li>
-					</ul>
-				</article>
-			</section>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; Nishita Wojnar <span id="date"></span></li>
-				</ul>
-			</footer>
-		</div>
-
-		<!-- Scripts -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-		<!-- Load page -->
-		<script>
-			if ('addEventListener' in window) {
-				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-			}
-		</script>
-
-		<!-- Background animation -->
-<!-- 		<script type="text/javascript">
-		    $(document).ready(function() {
-		    var movementStrength = 15;
-		    var height = movementStrength / $(window).height();
-		    var width = movementStrength / $(window).width();
-		    $("body").mousemove(function(e){
-		              var pageX = e.pageX - ($(window).width() / 1);
-		              var pageY = e.pageY - ($(window).height() / 1);
-		              var newvalueX = width * pageX * -1 - 5;
-		              var newvalueY = height * pageY * -1 - 50;
-		              $('body').css("background-position", newvalueX+"px     "+newvalueY+"px");
-		    });
-		    });
-		</script> -->
-
-		<!-- Get current year -->
-        <script>
-            var currentYear = (new Date).getFullYear();
-            $("#date").text( (new Date).getFullYear() );
-        </script>
-	</body>
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css"  href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,800,900" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <div class="intro-text">
+              <h1>Nishita Wojnar</h1>
+              <p>Digital Designer - Web &amp; Graphic</p>
+              <a href="#portfolio" class="btn btn-custom btn-lg page-scroll">Portfolio</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">About Me</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>From concepts to polished products - there&rsquo;s nothing quite as satisfying as seeing your work, out there, in the real world.</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".design">Graphic Design</a></li>
+            <li><a href="#" data-filter=".photo">Photography</a></li>
+            <li><a href="#" data-filter=".web">Web</a></li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 design">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/ir-crabs-details.png" title="
+More information coming soon." data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Illustrated Research</h4>
+                    <p>Visualising scientific findings</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/ir-crabs-details.png" class="img-responsive" alt="Digital illustrations for Illustrated Research (science magazine)."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/nzcs-website.png" title="
+More information coming soon." data-lightbox-gallery="gallery2">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>New Zealand Customs Service</h4>
+                    <p>Streamlining information for the public</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/nzcs-website.png" class="img-responsive" alt="Content design and testing for NZ Customs Service"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 design">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/tsr-bottle.png" title="
+More information coming soon." data-lightbox-gallery="gallery3">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>The Surgeons Rum</h4>
+                    <p>Creating a vintage brand</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/tsr-bottle.png" class="img-responsive" alt="Logo Design for The Surgeons Rum."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/ysof-class.jpg" title="
+More information coming soon." data-lightbox-gallery="gallery4">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Yoobee School of Design</h4>
+                    <p>Teaching the fundamentals</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/ysof-class.jpg" class="img-responsive" alt="Teaching web and design classes at Yoobee School of Design."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 design web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/mnz-bylaws2.png" title="
+More information coming soon." data-lightbox-gallery="gallery5">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Maritime New Zealand</h4>
+                    <p>Communicating bylaws and research online</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/mnz-bylaws2.png" class="img-responsive" alt="information design for Maritime New Zealand."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/mnz-website.jpg" title="
+More information coming soon." data-lightbox-gallery="gallery5">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Maritime New Zealand</h4>
+                    <p>Digital rebranding for the maritime sector</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/mnz-website.jpg" class="img-responsive" alt="Website design and development for Maritime New Zealand."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 photo">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/mt-book2.jpg" title="
+More information coming soon." data-lightbox-gallery="gallery6">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Macroscopic Tales</h4>
+                    <p>Evoking a curiosity for nature</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/mt-book2.jpg" class="img-responsive" alt="Photography for a nature series."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 design">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/kts-card2.jpeg" title="
+More information coming soon." data-lightbox-gallery="gallery7">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Kiwi Transport Services</h4>
+                    <p>Developing an identity</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/kts-card2.jpeg" class="img-responsive" alt="Logo Design for Kiwi Transport Services."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 design">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/ysof-skills17.png" title="
+More information coming soon." data-lightbox-gallery="gallery8">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Yoobee School of Design</h4>
+                    <p>Using commercial and open source tools</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/ysof-skills17.png" class="img-responsive" alt="Presenting a design workshop"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/c-website.png" title="
+More information coming soon." data-lightbox-gallery="gallery9">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Connexis</h4>
+                    <p>A new look for vocational education</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/c-website.png" class="img-responsive" alt="Web design and consultation for Connexis."> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 design">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/tdk-postcard.jpg" title="
+More information coming soon." data-lightbox-gallery="gallery10">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>The Design Kids</h4>
+                    <p>Greeting with a local identity</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/tdk-postcard.jpg" class="img-responsive" alt="Designing a postcard for The Design Kids"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 design">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/mbn-panda.jpg" title="
+More information coming soon." data-lightbox-gallery="gallery11">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Made By Nishi</h4>
+                    <p>Creating eco-friendly products and art</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/mbn-panda.jpg" class="img-responsive" alt="My personal art project"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<!-- <div id="contact">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="col-md-6">
+      <div class="section-title">
+        <div class="row"> <img src="img/profile/about.jpg" class="img-responsive pull-left" alt="Nishita Wojnar">
+          <p>ill ipsum photo sit amet, consectetur web elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum photo feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+          <p>ill ipsum photo sit amet, consectetur web elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum photo feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+          <div class="social">
+            <ul>
+              <li><a href="https://twitter.com/nishita_wojnar" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.behance.net/NishitaWojnar" target="_blank"><i class="fa fa-behance"></i></a></li>
+              <li><a href="https://www.instagram.com/made_by_nishi/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/nishitawojnar/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="section-title">
+        <p>For inquiries or collaborations please contact me by email at <strong>nishitawojnar@gmail.com</strong> or fill out the form below.</p>
+      </div>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div> -->
+<div id="footer">
+  <div class="container">
+    <p>&copy; Nishita Wojnar <span id="year"></span>.</p>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<!-- <script type="text/javascript" src="js/SmoothScroll.js"></script>  -->
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+	new Date().getFullYear();
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</body>
 </html>
