@@ -13,7 +13,6 @@ h1 {
 	font-size: 64px;
 	font-weight: 800;
 	margin-top: 0;
-	text-transform: uppercase;
 	margin-bottom: 10px;
 	text-shadow: 0px 1px 2px black;
 }
@@ -123,14 +122,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 40px;
 	color: #fff;
 }
+.intro h1{
+	text-transform: uppercase;
+}
 .intro p {
 	color: #888;
 	margin: 10px 0 20px 0;
 	font-size: 22px;
+	text-shadow: 0px 0px 1px black;
 }
 header .intro-text {
 	padding-top: 250px;
 	padding-bottom: 200px;
+}
+/* Case Study section*/
+#case-study h2{
+	text-transform: none;
 }
 /* Portfolio Section */
 #portfolio {
@@ -230,6 +237,59 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+/* Case Study Section*/
+#case-study{
+	overflow: hidden;
+}
+.display-container{
+	background-color:#fff; 
+	height: 100%;
+	overflow: hidden;
+}
+.fit-cover{
+	height: 100vh; 
+	width:100%; 
+	object-fit: cover; 
+	position: sticky;
+}
+.case-container{
+	height: 100vh; 
+	overflow-y: scroll;
+}
+.case-file{
+	margin-top: 50px;
+}
+.case-heading{
+	margin-top: 20px;
+}
+.case-subtitle{
+	font-style: italic; 
+	font-size: 20px; 
+	font-weight: 400;
+}
+.text-box{
+	margin-bottom: 25px;
+}
+.case-link{
+	word-wrap: break-word;
+}
+.publication{
+	/*font-weight: bold;*/
+	font-style: italic;
+}
+.img-container{
+	margin-bottom: 25px;
+}
+.img-thumbnail{
+	border: none;
+	max-width: 45%;
+	border-radius: 0px;
+}
+.case-closed{
+	margin-bottom: 25px; 
+	text-align: center;
+}
+
 /* Contact Section */
 #contact {
 	padding: 60px 0 60px 0;
