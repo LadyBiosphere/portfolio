@@ -273,7 +273,7 @@ ol.type li a:hover {
 .case-link{
 	word-wrap: break-word;
 }
-.publication{
+.publication, .company-name{
 	/*font-weight: bold;*/
 	font-style: italic;
 }
