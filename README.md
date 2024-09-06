@@ -1,6 +1,6 @@
 ##About this project
 =============
-######Updated: 29 August 2024.
+######Updated: 6 September 2024.
 
 Set header section as full-screen and responsive.
 
